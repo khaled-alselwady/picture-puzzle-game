@@ -217,6 +217,8 @@ namespace PicturePuzzleGame
             btnPause.Text = "Pause";
             btnPause.Enabled = true;
             _isPaused = false;
+            lblTimer.ForeColor = Color.Green;
+            _TogglePictureBoxesEnabledState(true);
         }
 
         private void _StartGame()
